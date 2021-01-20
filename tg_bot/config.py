@@ -7,7 +7,7 @@ class Development(Config):
     OWNER_USERNAME = "kavinduaj"
     OWNER_NAME = "KAVINDU AJ"
     SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:dkkaj0123456@postgresql/postgres'  # sample db credentials
-    MESSAGE_DUMP = True
+    MESSAGE_DUMP = -1001329348574
     SUDO_USERS = [1131653685]  # List of id's for users which have sudo access to the bot.
     START_PHOTTO = 'https://telegra.ph/file/7703ef03a791f158e28db.jpg'
     SUPPORT_USERS = [1131653685]
