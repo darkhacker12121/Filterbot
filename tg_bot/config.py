@@ -16,5 +16,4 @@ class Development(Config):
     ALLOW_EXCL = True
     BAN_STICKER = 'CAADAgADOwADPPEcAXkko5EB3YGYAg'
     DEL_CMDS = True
-    WEBHOOK = ANYTHING
-    START_PHOTTO = 
+    WEBHOOK = 'ANYTHING'
