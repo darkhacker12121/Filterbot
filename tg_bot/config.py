@@ -17,3 +17,19 @@ class Development(Config):
     BAN_STICKER = 'CAADAgADOwADPPEcAXkko5EB3YGYAg'
     DEL_CMDS = True
     WEBHOOK = 'ANYTHING'
+
+    DONATION_LINK = None  # EG, paypal
+    CERT_PATH = None
+    PORT = 5000
+    STRICT_GBAN = True
+    WORKERS = 8  # Number of subthreads to use. This is the recommended amount - see for yourself what works best!
+    
+    LOAD = []
+    NO_LOAD = ['translation', 'rss']
+    
+class Production(Config):
+    LOGGER = False
+
+
+class Development(Config):
+    LOGGER = True
