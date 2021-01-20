@@ -17,6 +17,7 @@ class Development(Config):
     BAN_STICKER = 'CAADAgADOwADPPEcAXkko5EB3YGYAg'
     DEL_CMDS = True
     WEBHOOK = 'ANYTHING'
+    STRICT_GMUTE = True 
 
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
